@@ -106,12 +106,13 @@ public class TestReceipt_3 {
 		System.out.println("누계(가용)포인트");
 		System.out.println("*신세계포인트 유효기간은 2년입니다.");
 		System.out.println("-----------------------------------------------");
-		System.out.println("  구매금액기준 무료주차시간 자동부여");
-		System.out.println("차량번호 :");
-		System.out.println("입차시간 :");
+		System.out.println("       구매금액기준 무료주차시간 자동부여");
+		System.out.printf("차량번호 :                             %7s\n", "34저****");
+		System.out.println("입차시간 :                  " + nowTime);
 		System.out.println("-----------------------------------------------");
 		System.out.println("캐셔:084599 양OO                           1150");
-		
-		
+		System.out.println("  |||||||||||||||||||||||||||||||||||||||||||  ");
+		System.out.println("  |||||||||||||||||||||||||||||||||||||||||||  ");
+		System.out.println("         20210303/00119861/00164980/31");
 	}
 }

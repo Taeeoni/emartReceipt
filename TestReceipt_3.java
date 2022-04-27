@@ -10,8 +10,10 @@ public class TestReceipt_3 {
 		// 영수증 출력 3 , 이마트
 		
 		//년월 시간을 찍는 포멧이 총 3개가 필요하다.
-		Calendar cal = Calendar.getInstance();
+		Calendar cal = Calendar.getInstance(); // 현재 시간을 출력하기 위해 calendar 객체를 가져와서 인스턴스로서 사용한다.
+		//SimpleDateFormat을 통해 년월시간을 원하는 포멧대로 출력되게끔 한다.
 		SimpleDateFormat form = new SimpleDateFormat("YYYY-MM-dd HH:mm");// 년월시간 포멧 1
+		// getTime 객체를 가져와서 현재시간을 가져오고 현재시간을 simpleDateFormat 통해 설정한 format에 맞추고nowTime 변수에 넣어준다.
 		String nowTime = form.format(cal.getTime()); // 현재시간 포멧 1 
 		SimpleDateFormat form2 = new SimpleDateFormat("YYYY-MM-dd HH:mm:ss"); // 년월시간 포멧 2
 		String nowTime2 = form2.format(cal.getTime()); // 현재시간 포멧 2
